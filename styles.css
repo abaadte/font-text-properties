@@ -1,7 +1,7 @@
 /* 
     ---------------------------------------------------------------
     Add your name to this file below:
-    NAME: 
+    NAME: Alaina Baadte
     ---------------------------------------------------------------
 */
 
@@ -47,6 +47,10 @@ body {
 	/* Set the line height to 1.5 */
 	/* set the font size to 1.1rem	*/
 	/* set the font color to #222 (--dk-gray) */
+	font-family: Lato, Arial, sans-serif;
+	line-height: 1.5rem;
+	font-size: 1.1rem;
+	text-decoration-color: var(--dk-gray);
 	margin: 0;
 	padding: 0;
 }
@@ -61,9 +65,12 @@ header {
 h1,
 h2,
 h3 {
-	/* center align the text */
-	/* use a web font here (instructions on page) */
-	/* make the heading text all small caps style */
+	text-align: center;
+	font-variant: small-caps;
+	font-family: "Seymour One", sans-serif
+		/* center align the text */
+		/* use a web font here (instructions on page) */
+		/* make the heading text all small caps style */
 }
 
 h2 {
@@ -75,6 +82,7 @@ h2 {
 h3 {
 	margin: 0;
 	padding: 4px;
+	border-bottom: 8px solid var(--teal);
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
@@ -89,10 +97,15 @@ nav ul {
 }
 
 nav a {
-	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
+	text-align: center;
+	text-decoration: none;
+	text-decoration-color: var(--dk-gray);
+	font-size: 1.2rem;
+	font-weight: 600;
 	/* set the font color to #222 (--dk-gray) */
 	/* center align the text */
 	/* remove the underline */
@@ -123,6 +136,10 @@ p {
 	/* add an indent on the first line of 2rem */
 	/* center those paragraphs (not the text) on the page */
 	padding: 0.5rem;
+	max-width: 55ch;
+	text-indent: 2rem;
+	padding: auto;
+
 }
 
 a {
@@ -138,9 +155,11 @@ ol,
 main ul {
 	/* limit the width of these lists to 55 characters */
 	margin: 1rem auto;
+	max-width: 55ch;
 }
 
 dt {
+	font-weight: bold;
 	/* make this font display in bold weight */
 }
 
